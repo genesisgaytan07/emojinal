@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBAction func showMessage(sender: UIButton) {
+        // pop up message of the fortune and lucky number of the day
+        let alertController = UIAlertController()
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
