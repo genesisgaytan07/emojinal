@@ -21,28 +21,28 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap for..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7kB-gF-sj5">
                                 <rect key="frame" x="100" y="99" width="214" height="125"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="37"/>
-                                <color key="textColor" red="1" green="0.77136439812210533" blue="0.10054897958619857" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="1" green="0.57825255885389959" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="fortune " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eaM-T9-C1M">
-                                <rect key="frame" x="100" y="232" width="214" height="78"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="fortune " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eaM-T9-C1M">
+                                <rect key="frame" x="100" y="232" width="214" height="38"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="🥠" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gza-XZ-zMC">
-                                <rect key="frame" x="125" y="318" width="164" height="70"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🥠" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gza-XZ-zMC">
+                                <rect key="frame" x="125" y="287" width="164" height="131.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="110"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="lucky number " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwj-Pv-Rlz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lucky number " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwj-Pv-Rlz">
                                 <rect key="frame" x="100" y="475" width="214" height="26"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="🎲" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5u-fR-fOp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🎲" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5u-fR-fOp">
                                 <rect key="frame" x="125" y="509" width="164" height="120"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <nil key="textColor"/>
@@ -54,13 +54,18 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y5u-fR-fOp" secondAttribute="trailing" constant="125" id="9ig-4N-p3U"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gza-XZ-zMC" secondAttribute="trailing" constant="125" id="ELw-Ly-ayc"/>
                             <constraint firstItem="eaM-T9-C1M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="HPk-B3-LM2"/>
+                            <constraint firstItem="Gza-XZ-zMC" firstAttribute="top" secondItem="eaM-T9-C1M" secondAttribute="bottom" constant="12" id="NXH-dD-rlA"/>
                             <constraint firstItem="Gza-XZ-zMC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="OkY-1h-QG4"/>
+                            <constraint firstItem="Y5u-fR-fOp" firstAttribute="top" secondItem="rwj-Pv-Rlz" secondAttribute="bottom" constant="8" id="S0s-Rs-Lez"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eaM-T9-C1M" secondAttribute="trailing" constant="100" id="SWr-sf-JLg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7kB-gF-sj5" secondAttribute="trailing" constant="100" id="UvE-kJ-dhZ"/>
+                            <constraint firstItem="eaM-T9-C1M" firstAttribute="top" secondItem="7kB-gF-sj5" secondAttribute="bottom" constant="25" id="bdR-di-Xle"/>
                             <constraint firstItem="7kB-gF-sj5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="oCk-CY-tRT"/>
                             <constraint firstItem="7kB-gF-sj5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="rfY-a8-HdX"/>
+                            <constraint firstItem="7kB-gF-sj5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="v8l-Qg-QiE"/>
                             <constraint firstItem="rwj-Pv-Rlz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="wfM-hy-nOl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rwj-Pv-Rlz" secondAttribute="trailing" constant="100" id="wzb-Eo-Xz5"/>
+                            <constraint firstItem="rwj-Pv-Rlz" firstAttribute="top" secondItem="Gza-XZ-zMC" secondAttribute="bottom" constant="56.5" id="xOh-k2-UPn"/>
                             <constraint firstItem="Y5u-fR-fOp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="zJ1-lE-2h4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
